@@ -1,0 +1,25 @@
+name: voice-gpt
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.9.12
+  - pandas
+  - requests
+  - matplotlib
+  - seaborn
+  - pytorch 
+  - torchvision 
+  - torchaudio 
+  - pytorch-cuda=11.7
+  - transformers
+  - python-dotenv
+  - openai
+  - ffmpeg
+  - pip:
+    - openai-whisper
+    - faster-whisper
+    - gradio
+    - orjson
