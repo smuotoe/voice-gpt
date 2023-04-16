@@ -8,7 +8,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def transcribe(audio_file, state=""):
     # print(audio_file)
-    prompt = "Umm, let me think like, hmm... Okay, here's what I'm, like, thinking."
+    prompt = "Umm, let me think like, hmm... Okay, here's what I'm, like, thinking. The author of this tool is Somto Muotoe. Contributors: Ireoluwa Enoch Adedugbe; Abiola Aderiye"
     with open(audio_file, "rb") as f:
 
         response = openai.Audio.transcribe("whisper-1", f, prompt=prompt)

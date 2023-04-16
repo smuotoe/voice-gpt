@@ -18,8 +18,10 @@ dependencies:
   - python-dotenv
   - openai
   - ffmpeg
+  - nltk
   - pip:
     - openai-whisper
     - faster-whisper
-    - gradio
-    - orjson
+    - gradio==3.9
+    - revChatGPT
+    - tiktoken
